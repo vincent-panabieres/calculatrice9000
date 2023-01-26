@@ -66,7 +66,7 @@ class Calculatrice(tk.Tk):
         else:
             if self.resultat.get() == "0":
                 self.resultat.set(chiffre)
-            else:
+        else:
     def ajouter_operation(self, operation):
         if operation == "sqrt":
             self.resultat.set(self.resultat.get() + "**(1/2)")
